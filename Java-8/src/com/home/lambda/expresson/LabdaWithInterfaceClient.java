@@ -1,6 +1,6 @@
 package com.home.lambda.expresson;
 
-public class ClientTest {
+public class LabdaWithInterfaceClient {
 
 	public static void main(String[] args) {
 		// createThreadWithoutLambda();

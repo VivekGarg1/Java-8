@@ -1,0 +1,6 @@
+Stream<String> build = Stream.<String>builder().add("Vivek").add("Paras").add("Prabhat").build();
+build.forEach(System.out::println);
+System.out.println("-------------------------------");
+Stream<Object> build2 = Stream.builder().add("Vivek").add(10).add("Paras").add("Prabhat").build();
+build2.forEach(System.out::println);
+System.out.println("-------------------------------");
